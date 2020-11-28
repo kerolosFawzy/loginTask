@@ -37,5 +37,6 @@ string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\content_main.xml
 TextView;obj\Debug\90\res\layout\sign_up.xml
+TextView;obj\Debug\90\res\layout\web_view.xml
 View;obj\Debug\90\res\layout\content_main.xml
 View;obj\Debug\90\res\layout\sign_up.xml

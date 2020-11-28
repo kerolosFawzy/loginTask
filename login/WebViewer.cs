@@ -7,13 +7,14 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Webkit;
 using Android.Widget;
 
 namespace login
 {
-    [Activity(Label = "WebViewer")]
+    [Activity(Label = "WebViewer", Theme = "@style/AppTheme.NoActionBar")]
     public class WebViewer : Activity
     {
         WebView webView;
@@ -23,6 +24,8 @@ namespace login
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.web_view);
+
+
 
             webView = FindViewById<WebView>(Resource.Id.WebView);
             webView.SetWebViewClient(new WebViewClient());

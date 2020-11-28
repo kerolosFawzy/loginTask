@@ -7,7 +7,7 @@
   <uses-permission android:name="android.permission.BIND_SCREENING_SERVICE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="SignUpActivity" android:name="crc64c7d16b25206a1e0a.SignUpActivity" />
-    <activity android:label="WebViewer" android:name="crc64c7d16b25206a1e0a.WebViewer" />
+    <activity android:label="WebViewer" android:theme="@style/AppTheme.NoActionBar" android:name="crc64c7d16b25206a1e0a.WebViewer" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar" android:name="crc64c7d16b25206a1e0a.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
